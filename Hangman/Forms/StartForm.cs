@@ -30,7 +30,7 @@ namespace Hangman
         {
             Dictionary<string, int> dictionary = new Dictionary<string, int>();
             string line;
-            StreamReader file = new StreamReader("c:\\translate.txt");
+            StreamReader file = new StreamReader("../../Resources/dictionary.txt");
             int count = 1;
 
             while ((line = file.ReadLine()) != null)

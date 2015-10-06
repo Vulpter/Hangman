@@ -108,6 +108,7 @@
     <Content Include="Resources\8.jpg" />
     <Content Include="Resources\9.jpg" />
     <Content Include="Resources\lose.jpg" />
+    <Content Include="Resources\dictionary.txt" />
     <Content Include="Resources\win.jpg" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
