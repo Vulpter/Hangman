@@ -1,7 +1,10 @@
-C:\Users\User\Documents\GitHub\Hangman\Hangman\bin\Debug\Hangman.exe.config
-C:\Users\User\Documents\GitHub\Hangman\Hangman\obj\Debug\Hangman.csprojResolveAssemblyReference.cache
-C:\Users\User\Documents\GitHub\Hangman\Hangman\obj\Debug\Hangman.MenuForm.resources
-C:\Users\User\Documents\GitHub\Hangman\Hangman\obj\Debug\Hangman.StartForm.resources
-C:\Users\User\Documents\GitHub\Hangman\Hangman\obj\Debug\Hangman.csproj.GenerateResource.Cache
-C:\Users\User\Documents\GitHub\Hangman\Hangman\obj\Debug\Hangman.Properties.Resources.resources
-C:\Users\User\Documents\GitHub\Hangman\Hangman\obj\Debug\Hangman.exe
+G:\Hangman-master\Hangman\bin\Debug\Hangman.exe.config
+G:\Hangman-master\Hangman\bin\Debug\Hangman.exe
+G:\Hangman-master\Hangman\bin\Debug\Hangman.pdb
+G:\Hangman-master\Hangman\obj\Debug\Hangman.csprojResolveAssemblyReference.cache
+G:\Hangman-master\Hangman\obj\Debug\Hangman.MenuForm.resources
+G:\Hangman-master\Hangman\obj\Debug\Hangman.Properties.Resources.resources
+G:\Hangman-master\Hangman\obj\Debug\Hangman.StartForm.resources
+G:\Hangman-master\Hangman\obj\Debug\Hangman.csproj.GenerateResource.Cache
+G:\Hangman-master\Hangman\obj\Debug\Hangman.exe
+G:\Hangman-master\Hangman\obj\Debug\Hangman.pdb
