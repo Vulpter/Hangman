@@ -56,7 +56,7 @@
             // 
             // pictureBox
             // 
-            this.pictureBox.Image = global::Hangman.Properties.Resources._9;
+            
             this.pictureBox.Location = new System.Drawing.Point(233, 256);
             this.pictureBox.Name = "pictureBox";
             this.pictureBox.Size = new System.Drawing.Size(160, 160);
@@ -95,7 +95,7 @@
             this.Controls.Add(this.inputTextBox);
             this.Controls.Add(this.wordLabel);
             this.Name = "StartForm";
-            this.Text = "StartForm";
+            this.Text = "Бесеница";
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();

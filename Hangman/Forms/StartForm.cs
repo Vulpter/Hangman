@@ -5,6 +5,7 @@ using System.Data;
 using System.Drawing;
 using System.IO;
 using System.Linq;
+using System.Media;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
@@ -64,6 +65,7 @@ namespace Hangman
             buttonNewGame.Visible = false;
             inputTextBox.ReadOnly = false;
             inputTextBox.Text = "";
+            
         }
 
         private void inputTextBox_KeyDown(object sender, KeyEventArgs e)
@@ -92,7 +94,7 @@ namespace Hangman
                 {
                     Win();
                 }
-                if (pictureCount == 9 )
+                if (pictureCount == 7 )
                 {
                     Lose();
                     return;
@@ -108,6 +110,7 @@ namespace Hangman
             ResetData();
             buttonNewGame.Focus();
             pictureBox.Image = Image.FromFile("../../Resources/lose.jpg");
+            playSound("lose.wav");
         }
 
         private void Win()
@@ -115,6 +118,17 @@ namespace Hangman
             buttonNewGame.Focus();
             pictureBox.Image = Image.FromFile("../../Resources/win.jpg");
             ResetData();
+            playSound("win.wav");
+
+        }
+
+        private void playSound(string soundName)
+        {
+            using (var soundPlayer = new SoundPlayer("../../Resources/" + soundName))
+
+            {
+                soundPlayer.Play(); // can also use soundPlayer.PlaySync()
+            }
         }
 
         private void ResetData()

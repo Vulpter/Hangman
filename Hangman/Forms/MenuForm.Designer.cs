@@ -63,7 +63,7 @@
             this.exitButton.UseVisualStyleBackColor = true;
             this.exitButton.Click += new System.EventHandler(this.exitButton_Click);
             // 
-            // Menu
+            // MenuForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -71,8 +71,8 @@
             this.Controls.Add(this.exitButton);
             this.Controls.Add(this.aboutButton);
             this.Controls.Add(this.startButton);
-            this.Name = "Menu";
-            this.Text = "Form1";
+            this.Name = "MenuForm";
+            this.Text = "Бесеница";
             this.ResumeLayout(false);
 
         }
